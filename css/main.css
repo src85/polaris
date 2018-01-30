@@ -1,0 +1,96 @@
+/* 
+CSS for Polaris -- conversion of TetrisSP (C) to Javascript/Canvas 
+for WDP Project WS17/18 FH Hagenberg BB SE 
+from Sebastian Spanner S1610307038 
+created 2018-01-02 17:30 
+-- thanks to --
+
+-- for ideas, clues, references --
+*/
+
+body { 
+    background-color: darkgoldenrod;
+    color: #000;
+    font-family: Verdana, sans-serif; 
+    font-size: 14pt;
+}
+
+h2 { 
+    font-size: 120%; 
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+#main { 
+    background-color: snow; 
+    border: 5px solid lime;
+    border-radius: 2px;
+    display: flex;
+    flex-basis: 370px; 
+    height: fit-content;
+    margin: 0 auto;
+    padding: 10px; 
+    width: fit-content;
+}
+
+#board {
+    background-color: tomato; 
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    width: calc(80vh / 2);
+}
+
+#left, #right { 
+    text-align: center; 
+    vertical-align: middle;
+}
+
+#left {
+    min-width: 225px;
+}
+
+#right {
+    width: 130px;
+}
+
+#right> :first-child {
+    margin-top: 0;
+}
+
+.info {
+    background-color: lightgrey;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 3px;
+}
+
+#preview { 
+    background-color: indigo; 
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 90px;
+    width: 90px;
+}
+
+#level, #score, #rows { 
+    font-style: normal; 
+    font-weight: bold; 
+}
+
+#level {
+    color: darkgoldenrod;
+}
+
+#score { 
+    color: red; 
+}
+
+#rows { 
+    color: darkGreen; 
+}
+
+script {
+    display: none;
+}

@@ -1,0 +1,3 @@
+"Übersetzung des Gameboy-Klassikers ""Tetris"" als Browser-Game basierend auf Canvas. 
+Es gibt 10 Level, bei denen sich die Geschwindigkeit erhöht, alle Formen des Klassikers und eine korrekte Überprüfung des Überlappens/Anstehens der Formen. Volle Reihen werden gelöscht (nicht kaskadierend). Der aktuelle Score wird berechnet und angezeigt. Gespielt wird mit Pfeil- und Leertaste(n). 
+Start-, Pause- und GameOver-Screen sind vorhanden. "
