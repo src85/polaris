@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <!--
-HTML for Polaris -- conversion of TetrisSP (C) to Javascript/Canvas 
+HTML for Polaris - conversion of TetrisSP (C) to Javascript/Canvas 
 for WDP Project WS17/18 FH Hagenberg BB SE 
 from Sebastian Spanner S1610307038 
 created 2018-01-02 17:30 
--- thanks to --
-
--- for ideas, clues, references --
 //-->
 <html>
 	<head>
@@ -15,20 +12,19 @@ created 2018-01-02 17:30
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<h2>Polaris</h2>
+		<!-- <h2>Polaris</h2> -->
+		<div class="invisible">.</div>
 		<div id="main">
-			<div id="left">
-				<canvas id="board"></canvas>
-			</div>
-			<div id="right">
-				<div class="info">Score<br><span id="score"></span></div>
-				<div class="info">Level<br><span id="level"></span></div>
-				<div class="info">Lines<br><span id="rows"></span></div>
-				<p id="prompt">Enter dr&uuml;cken: 
-					<span id="state"></span>
-				</p>
-				<canvas id="preview"></canvas>
-				<p id="paused">Pause</p>
+			<div id="container">
+				<div id="left">
+					<canvas id="board"></canvas>
+				</div>
+				<div id="right">
+					<div class="info">Score<br><span id="score"></span></div>
+					<div class="info">Level<br><span id="level"></span></div>
+					<div class="info">Lines<br><span id="rows"></span></div>
+					<canvas id="preview"></canvas>
+				</div>
 			</div>
 		</div>
 		<script src="script/polaroid.js"></script>
